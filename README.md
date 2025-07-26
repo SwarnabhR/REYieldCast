@@ -145,7 +145,7 @@ Building bridges between **machine learning** and **climate-conscious finance**.
 
 - 💼 LinkedIn: [linkedin.com/in/swarnabhroy](https://linkedin.com/in/swarnabhroy)
 - 💻 GitHub: [github.com/SwarnabhR](https://github.com/SwarnabhR)
-- 📫 Contact: Add your email or form link here
+- 📫 Contact: [workspace.swarnabh@gmail.com](mailto:workspace.swarnabh@gmail.com)
 
 ---
 
