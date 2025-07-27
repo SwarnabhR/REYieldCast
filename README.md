@@ -75,6 +75,22 @@ Energy infrastructure is increasingly dependent on **accurate, dynamic forecasti
 
 ---
 
+## ⚙️ Environment Notes
+
+This project uses GPU-accelerated packages such as TensorFlow and XGBoost. These libraries depend on CUDA, cuDNN, and other NVIDIA-backed tools, which may result in large package sizes (~2GB total).
+
+If you're using a CPU-only machine, you may opt to install the CPU versions of TensorFlow/XGBoost or remove GPU dependencies from the `environment.yml`.
+
+Example packages that contribute to size:
+
+- `tensorflow-base`: ~360 MB
+- `libcudnn`, `libcublas`, `nccl`: 200–500 MB each
+- `xgboost`: ~180 MB
+
+> ✅ Installation is one-time per environment and speeds up training significantly when GPU is available.
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Clone and Setup

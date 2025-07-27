@@ -1,0 +1,20 @@
+name: reyieldcast
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - xgboost
+  - tensorflow
+  - pip
+  - pip:
+      - requests
+      - flake8
+      - black
+      - pytest

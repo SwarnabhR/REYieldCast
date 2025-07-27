@@ -1,0 +1,63 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.ipynb_checkpoints/
+
+# Conda / virtual environments
+.env
+.venv
+env/
+venv/
+*.conda
+*.env
+*.yml~
+*.lock
+
+# IDE / editor folders
+.vscode/
+*.code-workspace
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs, test cache, profiling
+*.log
+*.out
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+*.prof
+
+# 🔥 Exclude datasets
+# Raw data
+data/raw/**
+!data/raw/configs/README.md  # optional placeholder if needed
+
+
+# Processed outputs
+data/processed/**
+
+# Archives and downloads
+archives/
+*.zip
+
+# Optional: model checkpoints or exports
+models/
+checkpoints/
+*.h5
+*.pt
+*.pkl
+
+# Static and plot outputs
+*.png
+*.pdf
+*.svg
+
+# Shell scripts (optional)
+*.sh
